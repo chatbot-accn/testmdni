@@ -18,9 +18,6 @@ import io
 
 app = Flask(__name__)
 
-@app.route('/')  # this is the home page route
-def welcome():  # this is the home page function that generates the page code
-    return "Welcome!"
 
 @app.route('/webhook', methods=['POST'])
 def webhook():
