@@ -18,7 +18,7 @@ import io
 
 app = Flask(__name__)
 
-
+@app.route('/')  # this is the home page route
 @app.route('/webhook', methods=['POST'])
 def webhook():
     return {
