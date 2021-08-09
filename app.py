@@ -262,7 +262,7 @@ def webhook():
         else:
             response = {
                 # 'fulfillmentText': total_value ,
-                'fulfillmentText': 'Click on the link provided here: https://chatbot-accn.herokuapp.com/plots',
+                'fulfillmentText': 'Click on the link provided here: https://mdntest.herokuapp.com/plots',
 
             }
             wb = data_mdfd
