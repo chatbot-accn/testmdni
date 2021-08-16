@@ -263,14 +263,14 @@ def webhook():
             response = {
                 # 'fulfillmentText': total_value ,
                 'fulfillmentText': 'Click on the link provided here: https://mdntest.herokuapp.com/plots',
-                'fulfillmentMessages': [
-                    {
-                        'image': {
-                            'imageUri': str('https://mdntest.herokuapp.com/plots')
-                        },
-                        'platform': 'FACEBOOK'
-                    }
-                ]
+                #'fulfillmentMessages': [
+                 #   {
+                  #      'image': {
+                   #         'imageUri': str('https://mdntest.herokuapp.com/plots')
+                    #    },
+                     #   'platform': 'FACEBOOK'
+                    #}
+                #]
 
             }
             wb = data_mdfd
