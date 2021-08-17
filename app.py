@@ -262,7 +262,7 @@ def webhook():
         else:
             response = {
                 # 'fulfillmentText': total_value ,
-                'fulfillmentText': 'Click on the link provided here: https://mdntest.herokuapp.com/plots',
+                #'fulfillmentText': 'Click on the link provided here: https://mdntest.herokuapp.com/plots',
                 #'fulfillmentMessages': [
                  #   {
                   #      'image': {
